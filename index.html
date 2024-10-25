@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Sakura Ramen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="sakura" href="./assets/img/6_favicon/favicon-16x16.png">
+
+    <script type="text/javascript"
+   src="./script.js"></script>
+</head>
+<body class="myBody">
+
+<!-- $$$$ ------------------------------------------------------------------------------------- $$$$ -->
+    <!-- Das ist die oberste Flexbox mit den einzelnen Containern. Hier sind es einmal die beiden Bilder.
+        Das erste Bild ist das Hintergrundbild und das zweite ist das Sakura-Logo links oben.
+        Danach kommt die "navigation" für die Leiste rechts oben.
+        Zum Schluss kommt die "h1" für den Header, der inmitten des Hintergrundbildes steht. 
+    -->
+<section class="atf-image">
+    <!-- <img class="atf-image" src="./assets/img/1_hero/JPG/hero_bg.jpg" alt="aot"> -->
+    <img class="sakura_logo" src="./assets/img/1_hero/PNG/sakura_logo.png" alt="">
+    
+
+
+    <div class="navigation">
+        <a id="nav-menu" class="hide-nav" href="#menu">MENU</a>
+        <a id="nav-location" class="#locations hide-nav" href="#locations">LOCATION</a>
+        <a id="nav-about" class="hide-nav" href="#about">ABOUT</a> 
+    <a class="phonelink" href="tel:017654564534">
+        <img class="phone_png" src="./assets/img/1_hero/PNG/phone.png">0176 54564534
+    </a>
+    <div class="flag">
+        <a onclick="translateGerman()" href="#" class="flag_link de" data-lang="de"><img class="img-fluid" src="./assets/img/german-flag.png"  width="30px"></a>
+        <a onclick="" href="#" class="flag_link en" data-lang="en"><img class="img-fluid" src="./assets/img/englisch-flag.png" alt="" width="30px"></a>
+     </div>
+   </div> 
+     
+    <div class="sakura_header">
+    <h1 id="beginning">Sakura Ramen</h1>
+    <span id="sub_h1">THE BEST RAMEN IN TOWN</span>
+    </div>
+    </section>
+<!-- $$$$ ------------------------------------------------------------------------------------ $$$$ -->
+
+    <!-- Hier gibt es den Parent Container "container2" mit der <h2> "HOW TO ORDER" -->
+<div class="container2">
+    <div class="howto">
+    <h2 id="h2_howto">HOW TO ORDER</h2>
+</div>
+</div>
+<!-- Hier sind 3 span container mit den Logos für die "HOW TO ORDER"-Section und dem dazugehörigen Text -->
+<div class="howto_logo">
+<span id="pickNoodle" class="noodle">
+    <img class="noodle_png" src="./assets/img/2_section_how_to_order/PNG/noodle.png" alt="">Pick Your <br><span></span>noodle
+</span>
+
+<span id="pickBroth" class="broth">
+            <img class="broth_png" src="./assets/img/2_section_how_to_order/PNG/broth.png" alt="">Pick Your <br><span></span> broth
+</span>
+    
+<span id="pickTopping" class="egg">
+    <img class="egg_png" src="./assets/img/2_section_how_to_order/PNG/egg.png" alt="">Add your <br><span></span>toppings
+</span>
+
+    </div>
+</div>
+<!-- $$$$ ------------------------------------------------------------------------------------ $$$$ -->
+   <!-- Parent <div> Container Nummer 3 mit dem Hintergrundbild für das Menü -->
+
+<div class="container3">
+    <!-- <img class="section_our_menu_bg" src="./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg" alt=""> -->
+
+
+
+    <!-- Hier ist eine <h2> mit der Klasse "header3" für die Speisekarte -->
+
+<div class="container3_innen">
+    <h2  id="menu">OUR MENU</h2>
+
+
+    <!-- Das erste Gericht in der Speisekarte "Tonkotsu Ramen" mit der Klasse "tonkotsu" -->
+
+        <!-- Das Bild zum Gericht "tonkotsu" mit der Klasse "r1" -->
+ <!-- <img class="r1" src="./assets/img/3_section_our_menu/Png/R1.png" alt=""> -->
+
+    <!-- Der Header für die Zutatenliste für Tonkotsu mit 3 Inhalten mit der Klasse "tonkotsu_zutaten" -->
+
+
+        <div class="tonkotsu_zutaten">
+            <img class="r1" src="./assets/img/3_section_our_menu/Png/R1.png" alt="">
+
+                <table>
+                    <tr>
+                        <th>Tonkotsu Ramen</th>
+                    </tr>
+                    <tr>
+                        <td class="chicken">CHICKEN</td>
+                        <td>11.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="beef">BEEF</td>
+                        <td>12.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="shrimp">SHRIMP</td>
+                        <td>13.95€</td>
+                    </tr>
+                </table>
+    </div>
+
+
+        <!-- Das Bild zum Gericht "spicy_miso" mit der Klasse "r2" -->
+    <!-- <img class="r2" src="./assets/img/3_section_our_menu/Png/R2.png" alt=""> -->
+        
+
+    <div class="spicy_miso_zutaten">
+                <table>
+                    <tr>
+                        <th>Spicy Miso Ramen</th>
+                    </tr>
+                    <tr>
+                        <td class="chicken">CHICKEN</td>
+                        <td>11.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="beef">BEEF</td>
+                        <td>12.95€</td>
+                    </tr>
+                    <tr>
+                        <td class="shrimp">SHRIMP</td>
+                        <td>13.95€</td>
+                    </tr>
+                </table>
+                <img class="r2" src="./assets/img/3_section_our_menu/Png/R2.png" alt="">
+    </div>
+
+
+
+
+        <!-- Das Bild zum Gericht "shio_ramen" mit der Klasse "r2" -->
+   
+
+   <div class="shio_ramen_zutaten">
+                    <img class="r3" src="./assets/img/3_section_our_menu/Png/R3.png" alt="">
+                    <table>
+                        <tr>
+                            <th>Shio Ramen</th>
+                        </tr>
+                        <tr>
+                            <td class="chicken">CHICKEN</td>
+                            <td>11.95€</td>
+                        </tr>
+                        <tr>
+                            <td class="beef">BEEF</td>
+                            <td>12.95€</td>
+                        </tr>
+                        <tr>
+                            <td class="shrimp">SHRIMP</td>
+                            <td>13.95€</td>
+                        </tr>
+                    </table>
+        </div>
+    </div>
+</div>
+
+<div class="locations_container">
+    <h2 class="header4" id="about">FIND US AT
+    <span class="kapuzinerstr"><img class="mapMarker" src="./assets/img/4_section_find_us_at/PNG/map_marker.png" alt="">Kapuzinerstraße 31, München 80337</span></h2>
+    <iframe id="locations" class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1331.6035188839337!2d11.560554205401145!3d48.12553058453368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf76491f7e83%3A0xd9731116d56bf59c!2sSakura%20Ramen!5e0!3m2!1sde!2sde!4v1706280556487!5m2!1sde!2sde"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</body>
+
+<footer>
+    <div class="footer">
+        <img class="#beginning footer_sakura" src="./assets/img/5_section_footer/PNG/sakura_ramen_logo_and_text.png"  alt="">
+
+        <div class="socialMedia">
+        <a href="https://www.tripadvisor.de/"><img src="./assets/img/5_section_footer/PNG/tripadvisor_logo.png" alt=""></a>
+        <a href="https://www.facebook.com/?locale=de_DE"><img src="./assets/img/5_section_footer/PNG/facebook_logo.png" alt=""></a>
+        <a href="https://www.instagram.com/"><img src="./assets/img/5_section_footer/PNG/instagrram_logo.png" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+</html>

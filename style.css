@@ -1,0 +1,673 @@
+
+/* --- Eigenschaft vom html Grundgerüst --- */
+html {
+    scroll-behavior: smooth;
+}
+
+/* --- Anfang vom ersten Container */
+
+.atf-image {
+    background-image: url('./assets/img/1_hero/JPG/hero_bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.sakura_logo {
+    width: 64px;
+    height: 64px;
+    top: 15px;
+    margin-left: 200px;
+    margin-top: 30px;
+    position: absolute;
+    object-fit: cover;
+    display: flex;
+    justify-content:first baseline;
+}
+
+.myBody {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation {
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.navigation a:hover {
+    color: #f5b60a;
+}
+
+
+
+.phonelink {
+    font-size: 10px;
+    background-color: #9F0908;
+    border: white;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: start;
+}
+
+.phone_png {
+    width: 20px;
+    height: 20px;
+}
+
+#language-buttons {
+    padding-left: 10px;
+}
+
+#language-buttons:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 96px;
+    font-size: bold;
+}
+
+.sakura_header .span {
+    font-size: 24px;
+}
+
+.sakura_header {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    right: 25%;
+}
+
+h2 {
+    color: #9F0908;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- Ende vom ersten Container --- */
+
+
+/* ------------------------------------------------------------------------------------ */
+
+/* --- Anfang vom zweiten Container --- */
+
+
+.howto {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.howto_logo {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.howto_logo span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Economica', sans-serif;
+}
+
+.noodle_png {
+    width: 128px;
+}
+
+.broth_png {
+    width: 128px;
+}
+
+.egg_png {
+    width: 128px;
+}
+
+/* --- Ende vom zweiten Container --- */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* --- Anfang vom dritten Container --- */
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    background-image: url("./assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg");
+}
+
+.container3_innen {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.r1 {
+    height: 352px;
+    width: 352px;
+}
+
+
+.tonkotsu_zutaten th {
+    color: #000000;
+    padding-left: 8vh;
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Economica', sans-serif;
+    padding-bottom: 16px;
+}
+
+.tonkotsu_zutaten {
+    color: #675E54;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 56px;
+}
+
+.tonkotsu_zutaten td {
+    padding-left: 8vh;
+    padding-top: 8px;
+}
+
+.r2 {
+    height: 352px;
+    width: 352px;
+}
+
+
+
+
+.spicy_miso_zutaten th {
+    color: #000000;
+    padding-right: 8vh;
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Economica', sans-serif;
+    padding-bottom: 16px;
+}
+
+.spicy_miso_zutaten {
+    color: #675E54;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 56px;
+
+}
+
+.spicy_miso_zutaten td {
+    padding-top: 8px;
+    padding-right: 8vh;
+}
+
+.r3 {
+    height: 352px;
+    width: 352px;
+}
+
+.shio_ramen_zutaten th {
+    color: #000000;
+    font-size: 56px;
+    font-weight: bold;
+    display: flex;
+    font-family: 'Economica', sans-serif;
+    padding-bottom: 16px;
+    padding-left: 80px;
+}
+
+.shio_ramen_zutaten {
+    color: #675E54;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.shio_ramen_zutaten td {
+    padding-top: 8px;
+    padding-left: 8vh;
+}
+
+/* --- Ende vom dritten Container --- */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* --- Anfang vom vierten Container --- */
+
+.locations_container {
+    position: relative;
+}
+
+.header4 {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 8px;
+        font-family: 'Raleway', sans-serif;
+}
+
+.header4 .kapuzinerstr {
+    font-size: 35px;
+    padding-top: 8px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.header4 .mapMarker {
+    height: 24px;
+    width: 24px;
+    padding-right: 2px;
+}
+
+
+
+.googleMaps {
+    margin-top: 200px;
+    top: 3900px;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    background-color: #0a141e;
+    height: 144px;
+
+}
+
+.footer img {
+    background-color: #0a141e;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 50px;
+    height: 44px;
+}
+
+.socialMedia {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+}
+
+.socialMedia a {
+    padding-left: 10px;
+}
+
+
+/* --- Ende vom vierten Container --- */
+
+@media (max-width: 1495px) {
+    .sakura_header h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+ .hide-nav {
+        display: none;
+    }
+
+    .phone_png {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navigation a {
+        font-size: 20px;
+    }
+
+    .sakura_header h1 {
+        font-size: 48px;
+    }
+
+    .howto_logo {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .howto_logo span {
+        font-size: 40px;
+    }
+
+    .container3_innen h2 {
+        font-size: 50px;
+    }
+
+    .container3_innen img {
+        height: 190px;
+        width: 190px;
+    }
+
+    .container3_innen th {
+        font-size: 35px;
+    }
+
+    .container3_innen td {
+        font-size: 20px;
+    }
+
+    .locations_container .header4 {
+        font-size: 50px;
+   }
+
+   .locations_container .kapuzinerstr {
+    font-size: 20px;
+   }
+
+    .footer {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .footer_sakura {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    .hide-nav {
+           display: none;
+       }
+
+       .phone_png {
+        width: 15px;
+        height: 15px;
+    }
+
+    .navigation a {
+        font-size: 15px;
+    }
+
+       .sakura_logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 150px;
+        top: 15px;
+        margin-top: 30px;
+        position: absolute;
+        display: flex;
+    }
+
+       .navigation a {
+        color: white;
+        text-decoration: none;
+        align-items: center;
+    }
+
+       .sakura_header h1 {
+           font-size: 28px;
+       }
+
+       .sakura_header span {
+        font-size: 10px;
+    }
+
+
+       .howto h2 {
+        font-size: 40px;
+       }
+   
+       .howto_logo img {
+           width: 100px;
+           gap: 70px;
+       }
+
+       .howto_logo span {
+        font-size: 30px;
+    }
+
+   
+       .container3_innen h2 {
+           font-size: 40px;
+       }
+   
+       .container3_innen img {
+           height: 100px;
+           width: 100px;
+       }
+   
+       .container3_innen th {
+           font-size: 20px;
+       }
+   
+       .container3_innen td {
+           font-size: 10px;
+       }
+
+
+        .locations_container .header4 {
+            font-size: 40px;
+       }
+
+       .locations_container .kapuzinerstr {
+        font-size: 20px;
+       }
+   
+       .footer {
+           flex-direction: column;
+           height: 30vh;
+       }
+
+       
+       .footer_sakura {
+           width: 270px;
+       }
+   
+   }
+
+
+   
+@media (max-width: 530px) {
+
+    .hide-nav {
+           display: none;
+       }
+
+       .phone_png {
+        width: 10px;
+        height: 10px;
+    }
+
+    .navigation a {
+        font-size: 10px;
+    }
+
+       .sakura_logo {
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        margin-left: 100px;
+        margin-top: 30px;
+        position: absolute;
+        display: flex;
+    }
+
+   
+       .sakura_header h1 {
+           font-size: 20px;
+       }
+
+       .sakura_header span {
+        font-size: 10px;
+       }
+
+       .howto h2 {
+        font-size: 30px;
+       }
+   
+       .howto_logo img {
+           width: 80px;
+           gap: 50px;
+       }
+   
+       .container3_innen h2 {
+           font-size: 20px;
+       }
+   
+       .container3_innen img {
+           height: 80px;
+           width: 80px;
+       }
+   
+       .container3_innen th {
+           font-size: 15px;
+       }
+   
+       .container3_innen td {
+           font-size: 10px;
+       }
+
+
+        .locations_container .header4 {
+            font-size: 30px;
+       }
+
+       .locations_container .kapuzinerstr {
+        font-size: 15px;
+       }
+   
+       .footer {
+           flex-direction: column;
+           height: 30vh;
+       }
+
+       
+       .footer_sakura {
+           width: 170px;
+       }
+   
+   }
+
+
+     
+@media (max-width: 400px) {
+
+    .hide-nav {
+           display: none;
+       }
+
+       
+
+       .sakura_logo {
+        width: 40px;
+        height: 40px;
+        top: 15px;
+        margin-left: 30px;
+        margin-top: 30px;
+        position: absolute;
+        display: flex;
+    }
+
+   
+       .sakura_header h1 {
+           font-size: 15px;
+       }
+
+       .sakura_header span {
+        font-size: 8px;
+       }
+
+       .howto h2 {
+        font-size: 20px;
+       }
+   
+       .howto_logo img {
+           width: 60px;
+           gap: 40px;
+       }
+
+       .howto_logo span {
+        font-size: 20px;
+    }
+
+   
+       .container3_innen h2 {
+           font-size: 10px;
+       }
+   
+       .container3_innen img {
+           height: 80px;
+           width: 80px;
+       }
+   
+       .container3_innen th {
+           font-size: 15px;
+       }
+   
+       .container3_innen td {
+           font-size: 10px;
+       }
+
+
+        .locations_container .header4 {
+            font-size: 20px;
+       }
+
+       .locations_container .kapuzinerstr {
+        font-size: 10px;
+       }
+   
+       .footer {
+           flex-direction: column;
+           height: 30vh;
+       }
+
+       
+       .footer_sakura {
+           width: 170px;
+       }
+   
+   }
